@@ -41,7 +41,7 @@ namespace BDD
                 driver.FindElement(By.XPath("//input[@type='tel']")).SendKeys((string)item.Phone);
                 Thread.Sleep(2000);
                 driver.FindElement(By.XPath("//input[@type='tel']")).Clear();
-
+                Thread.Sleep(2000);
             }
         }
     }
